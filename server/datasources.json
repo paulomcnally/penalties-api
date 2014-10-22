@@ -1,6 +1,10 @@
 {
   "db": {
+    "host": "localhost",
+    "database": "penalties",
+    "username": "postgres",
+    "password": "NodeRules",
     "name": "db",
-    "connector": "memory"
+    "connector": "postgresql"
   }
 }
