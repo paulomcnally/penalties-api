@@ -35,5 +35,9 @@
   "Validation": {
     "dataSource": "db",
     "public": true
+  },
+  "Team": {
+    "dataSource": "db",
+    "public": true
   }
 }
