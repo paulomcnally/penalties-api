@@ -1,19 +1,28 @@
 {
-  "name": "Type",
-  "plural": "Types",
+  "name": "Event",
+  "plural": "Events",
   "base": "PersistedModel",
   "properties": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "price": {
+    "user_id": {
       "type": "number",
       "required": true
     },
-    "active": {
-      "type": "boolean",
+    "type_id": {
+      "type": "number",
       "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "judges": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    },
+    "created_at": {
+      "type": "date"
     }
   },
   "validations": [],
