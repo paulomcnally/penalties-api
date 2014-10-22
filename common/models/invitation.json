@@ -1,0 +1,39 @@
+{
+  "name": "Invitation",
+  "plural": "Invitations",
+  "base": "PersistedModel",
+  "properties": {
+    "team_id": {
+      "type": "number",
+      "required": true
+    },
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "registered": {
+      "type": "boolean",
+      "required": true
+    },
+    "hash": {
+      "type": "string",
+      "required": true
+    },
+    "created_at": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
