@@ -39,5 +39,9 @@
   "Team": {
     "dataSource": "db",
     "public": true
+  },
+  "Invitation": {
+    "dataSource": "db",
+    "public": true
   }
 }
