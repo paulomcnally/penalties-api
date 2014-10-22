@@ -31,5 +31,9 @@
   "Event": {
     "dataSource": "db",
     "public": true
+  },
+  "Validation": {
+    "dataSource": "db",
+    "public": true
   }
 }
